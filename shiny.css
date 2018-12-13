@@ -1,0 +1,36 @@
+table{
+    width: 100%;
+  
+}
+
+td{
+    padding-left: 20px;
+}
+
+tr.row:nth-child(even) td {
+    background-color: #eee;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #6b77b9;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.titleTab{
+        text-align: center;
+}
+
+.button{
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+        border-radius:10px;
+        border: 1px solid rgb(21, 25, 223);
+        background-color: #6b77b9;
+        color: #fff;
+        padding: 0 1rem;
+}
