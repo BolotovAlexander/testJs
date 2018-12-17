@@ -1,9 +1,9 @@
-table{
-    width: 100%;
-  
+table {
+    width: 95%;
+    margin: 0 auto;
 }
 
-td{
+td {
     padding-left: 20px;
 }
 
@@ -11,7 +11,7 @@ tr.row:nth-child(even) td {
     background-color: #eee;
 }
 
-th{
+th {
     text-transform: uppercase;
     font-weight: bold;
     background-color: #6b77b9;
@@ -20,19 +20,20 @@ th{
     padding: 15px;
 }
 
-.titleTab{
+.titleTab {
         text-align: center;
 }
 
-.button{
+.button-holder{
+    text-align: center;
+}
+.button {
         height: 40px;
         line-height: 40px;
-        position: relative;
         border-radius:10px;
-        border: 1px solid rgb(21, 25, 223);
         background-color: #374ece;
         color: #fff;
         padding: 0 1rem;
 }
-
-/* */
+.buttonClick: hover {
+    background-color:green;  }
