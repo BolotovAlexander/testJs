@@ -1,0 +1,95 @@
+.selectButton{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    background: #eceeee;
+    padding: 5px;
+    border: solid 2px orange; 
+    position: relative;
+    float: left;
+    top: 200px;
+    left: 40px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.selectButton:hover{
+    background: #303030;
+    transition: 2s; 
+    color: rgb(255, 255, 255);
+}
+
+.selectButton:not(:hover){
+    transition: 3s; 
+}
+
+.pop_upMenu{
+    display: none;
+
+    
+    
+
+    background: #eceeee;
+    padding-right: 5px; 
+    border: solid 2px orange; 
+    border-radius: 5px 20px 20px 5px;
+    float: left;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    position: relative;
+    top: 208px;
+    left: 45px;
+}
+
+.pop_upMenu:hover{
+    background: #464545;
+    transition: 2s;
+}
+
+.pop_upMenu:not(:hover){
+    transition: 3s; 
+}
+
+.time:hover{
+   color: rgb(255, 255, 255);
+}
+
+.time:not(:hover){
+    transition: 2s;
+}
+
+.speed:hover{
+    
+    color: rgb(255, 255, 255);
+}
+
+.speed:not(:hover){
+    transition: 2s;
+}
+
+.textColor:hover{
+    color: rgb(255, 255, 255);
+}
+
+.textColor:not(:hover){
+    transition: 2s;
+}
+
+.backgroundColor:hover{
+    color: rgb(255, 255, 255);
+}
+
+.backgroundColor:not(:hover){
+    transition: 2s;
+}
+
+.some:hover{
+    color: rgb(255, 255, 255);
+}
+
+.some:not(:hover){
+    transition: 2s;
+}
